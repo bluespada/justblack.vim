@@ -1,4 +1,4 @@
-" [justdark.vim](https://github.com/masmaspedo/justblack.vim)
+" [justblack.vim](https://github.com/masmaspedo/justblack.vim)
 " [onedark.vim](https://github.com/joshdick/onedark.vim/)
 
 let s:overrides = get(g:, "justblack_color_overrides", {})
