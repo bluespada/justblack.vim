@@ -7,7 +7,7 @@ let s:colors = {
       \ "red": get(s:overrides, "red", { "gui": "#ff1f2e", "cterm": "204", "cterm16": "1" }),
       \ "dark_red": get(s:overrides, "dark_red", { "gui": "#d40412", "cterm": "196", "cterm16": "9" }),
       \ "green": get(s:overrides, "green", { "gui": "#03ff03", "cterm": "114", "cterm16": "2" }),
-      \ "yellow": get(s:overrides, "yellow", { "gui": "#fbff00", "cterm": "180", "cterm16": "3" }),
+      \ "yellow": get(s:overrides, "yellow", { "gui": "#fff926", "cterm": "180", "cterm16": "3" }),
       \ "dark_yellow": get(s:overrides, "dark_yellow", { "gui": "#ffbf00", "cterm": "173", "cterm16": "11" }),
       \ "blue": get(s:overrides, "blue", { "gui": "#0000ff", "cterm": "39", "cterm16": "4" }),
       \ "purple": get(s:overrides, "purple", { "gui": "#bf00ff", "cterm": "170", "cterm16": "5" }),
@@ -28,4 +28,3 @@ let s:colors = {
 function! justblack#GetColors()
   return s:colors
 endfunction
-
